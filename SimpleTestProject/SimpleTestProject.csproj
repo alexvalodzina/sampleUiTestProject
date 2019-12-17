@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Dockerfile" />
     <Compile Include="FeatureFiles\SecondTest.feature.cs">
       <DependentUpon>SecondTest.feature</DependentUpon>
       <AutoGen>True</AutoGen>
