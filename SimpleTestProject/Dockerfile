@@ -1,6 +1,6 @@
 ﻿FROM node:10-alpine
 WORKDIR /app
-COPY package*.json ./
+COPY App.config ./
 RUN npm install
 COPY . /app
 CMD [ "npm", "test"]
